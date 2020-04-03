@@ -1,0 +1,31 @@
+
+
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Template working</title>
+</head>
+<body>
+Template is working fine <br> {{name}} from {{place}} <br>
+<form method="POST" action="/index/">
+    {% csrf_token %}
+    <label>Email</label>
+    <input type="text" name="email" placeholder="email"/>
+    &emsp;&emsp;&emsp;&emsp; &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;    &emsp;&emsp;&emsp;&emsp; &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;
+
+    <label>Password</label>
+    <input type="password" name="Password" placeholder="password" style="margin-bottom:100px"/>
+    <input type="submit" name="submit">
+</form>
+
+
+
+
+
+
+
+
+</body>
+</html>
